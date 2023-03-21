@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Chivo+Mono:wght@300&family=Hanken+Grotesk&family=Open+Sans:wght@600&family=PT+Sans+Narrow&family=Sevillana&display=swap');
+body{
+      background-color: black; 
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    /* display: flex; */
+}
+nav ul{
+    /* display: flex; */
+    list-style: none;
+     background-color: black; 
+    height: 50px;
+     width: 1500px; 
+}
+nav ul li{
+    padding: 10px 13px;
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+}
+.container{
+    background-color: black;
+    /* height: 100vh;
+    width: 100vw; */
+    color: white;
+    /* display: flex; */
+    margin: 10px auto;  
+    width: 70%;  
+    height: 420px;
+    border-radius: 12px;
+    /* background-image:url('/b4.jpg') ;
+    background-size: cover;
+     background-repeat: no-repeat;  */
+     /* background-attachment: fixed; */
+    
+}
+.bottom{
+    background-color: rgb(35, 34, 34);
+    height: 70px;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+#mybar{
+    width: 40vw;
+    margin: 8px auto;
+}
+.songItem{
+    display: flex;
+     /* background-color: rgb(120, 115, 115);  */
+     color: white;
+     margin: 27px 0px; 
+    justify-content: space-between;
+    align-items: center;
+  height: 44px;
+  width: 800px;
+    /* border-radius: 12px; */
+}
+.songItem img{
+    width: 43px;
+    margin: 0 10px;
+    /* border-radius: 34px; */
+
+}
+.timestamp{
+    margin: 0px 23px;
+    cursor: pointer;
+}
+  /* .songplaylist{
+    display: flex;
+    color: black;
+    margin: 0;
+  } */
+  .songlist{
+    margin: 0px 5px;
+  }
+  .songINFO{
+    position: absolute;
+    left: 0;
+  }
+  .songINFO img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+  }
+  input{
+    cursor: pointer;
+  }
+.brand{
+  padding: 6px;
+}
+.artist{
+  padding: 12px 5px;
+}
+/* .container1{
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(37, 37, 122);
+
+} */
+.songItem:hover{
+  background-color: rgb(63, 60, 60);
+  height: 50%;
+  width: 90%;
+  margin-right: 100px;
+}
+
+
+
+
+
+
